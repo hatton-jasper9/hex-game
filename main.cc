@@ -15,10 +15,11 @@ int main(){
 	string size_msg="Enter the board size: ";
 	string sims_msg="Enter the number of simulations per move: ";
 	
-	get_input(size,size_msg);
+	//get_input(size,size_msg);
+	size=7;
 	
 	//get_input(sims,sims_msg);
-	sims=8000;
+	sims=1000;
 	
 	game1=new Hex(size,sims); 
 	

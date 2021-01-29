@@ -175,7 +175,7 @@ istream& operator>>(istream& in, pair<int,int>& x){
 //Used to get a players opponent easily. ! operator is natural because Player is a binary enum.
 Player operator!(Player player){
 	if(player==Player::BLUE){return Player::RED;}
-	if(player==Player::RED){return Player::BLUE;}
+	else{return Player::BLUE;}
 }
 
 //Allows the player to enter a move. Loops until the move is legal. Returns 1 if the move results in a win, 0 otherwise.
