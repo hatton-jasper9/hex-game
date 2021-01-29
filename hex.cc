@@ -1,7 +1,5 @@
 //Jasper Hatton, 2020
 
-//All the important functions are here. To see the other files, go to https://drive.google.com/drive/folders/1AxSViEuVZHshHVXpW0yMxEaIqq9w69NI
-
 #include "hex.h"
 #include <algorithm>
 #include <thread>
